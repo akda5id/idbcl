@@ -83,6 +83,7 @@ class DbTables {
                 \(ITLibMediaItemPropertyAlbumTitle) TEXT,
                 \(ITLibMediaItemPropertyArtistName) TEXT,
                 \(ITLibMediaItemPropertyBitRate) INTEGER,
+                \(ITLibMediaItemPropertyComments) TEXT,
                 \(ITLibMediaItemPropertyFileSize) INTEGER,
                 \(ITLibMediaItemPropertyGenre) TEXT,
                 \(ITLibMediaItemPropertyKind) TEXT,
@@ -128,7 +129,7 @@ class DbTables {
     
     @discardableResult
     public func setMeta(values: [String?]) -> Int {
-        return db.executeNonQuery(sql: "INSERT INTO Meta VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", params: values)
+        return db.executeNonQuery(sql: "INSERT INTO Meta VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", params: values)
     }
     
     @discardableResult

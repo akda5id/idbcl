@@ -64,6 +64,7 @@ public class DatabaseTrack: Track {
         ITLibMediaItemPropertyAlbumTitle
         , ITLibMediaItemPropertyArtistName
         , ITLibMediaItemPropertyBitRate
+        , ITLibMediaItemPropertyComments
         , ITLibMediaItemPropertyFileSize
         , ITLibMediaItemPropertyGenre
         , ITLibMediaItemPropertyKind

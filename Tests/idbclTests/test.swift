@@ -32,6 +32,7 @@ class idbcl_test: XCTestCase {
             ITLibMediaEntityPropertyPersistentID,
             ITLibMediaItemPropertyAlbumTitle,
             ITLibMediaItemPropertyArtistName,
+            ITLibMediaItemPropertyComments,
             ITLibMediaItemPropertyGenre,
             ITLibMediaItemPropertyKind,
             ITLibMediaItemPropertyTitle

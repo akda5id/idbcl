@@ -11,6 +11,7 @@ class test_DbTables: idbcl_test {
         XCTAssert(ITLibMediaItemPropertyAlbumTitle == "AlbumTitle")
         XCTAssert(ITLibMediaItemPropertyArtistName == "Artist")
         XCTAssert(ITLibMediaItemPropertyBitRate == "BitRate")
+        XCTAssert(ITLibMediaItemPropertyComments == "Comments")
         XCTAssert(ITLibMediaItemPropertyFileSize == "FileSize")
         XCTAssert(ITLibMediaItemPropertyGenre == "Genre")
         XCTAssert(ITLibMediaItemPropertyKind == "Kind")
@@ -54,6 +55,7 @@ class test_DbTables: idbcl_test {
                 \(ITLibMediaItemPropertyAlbumTitle) TEXT,
                 \(ITLibMediaItemPropertyArtistName) TEXT,
                 \(ITLibMediaItemPropertyBitRate) INTEGER,
+                \(ITLibMediaItemPropertyComments) TEXT,
                 \(ITLibMediaItemPropertyFileSize) INTEGER,
                 \(ITLibMediaItemPropertyGenre) TEXT,
                 \(ITLibMediaItemPropertyKind) TEXT,
